@@ -18,18 +18,20 @@
     "test:e2e": "playwright test"
   },
   "dependencies": {
+    "@capacitor/android": "^8.6.0",
     "@capacitor/app": "8.1.2",
     "@capacitor/core": "8.6.0",
+    "@capacitor/filesystem": "^8.1.5",
     "@capacitor/haptics": "8.0.2",
     "@capacitor/keyboard": "8.0.6",
     "@capacitor/status-bar": "8.0.4",
     "@ionic/vue": "^9.0.0",
-    "@ionic/vue-router": "^9.0.0",
+    "@ionic/vue-router": "^9.0.10",
     "@supabase/supabase-js": "^2.119.0",
     "apexcharts": "^8.7.0",
     "ionicons": "^8.1.0",
     "vue": "^3.5.0",
-    "vue-router": "^5.0.0",
+    "vue-router": "^5.4.0",
     "vue3-apexcharts": "^1.11.3"
   },
   "devDependencies": {

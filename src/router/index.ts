@@ -1,10 +1,10 @@
 import { createRouter, createWebHistory } from '@ionic/vue-router'
-import { supabase } from '../lib/supabase'
 
-import LoginPage from '../views/LoginPage.vue'
+import { supabase } from '../lib/supabase'
 import CadastroPage from '../views/CadastroPage.vue'
 import DashboardPage from '../views/DashboardPage.vue'
 import LancamentosPage from '../views/LancamentosPage.vue'
+import LoginPage from '../views/LoginPage.vue'
 
 const routes = [
   {
