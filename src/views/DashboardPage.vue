@@ -216,7 +216,7 @@ const pizzaOptions = computed(() => {
   return {
     labels: Object.keys(gastosPorCategoria.value),
     legend: {
-      position: 'bottom'
+      position: 'bottom' as const
     }
   }
 })
